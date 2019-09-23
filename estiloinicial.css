@@ -9,23 +9,45 @@ body {
     background: url(fondo2.jpg);
     background-size: 100% 100%;
 }
-/*Nuevo ejercicio*/
+/*Nuevo ejercicio
 .ejercicio
 {
-    display: inline-block;
+    display: block;
     width: 30px; 
     height: 30px;
     background: url(checkbox.png) -15px -266px; 
     background-size: 500%;
+    margin: 0px auto;
    
 }
 
 .ejercicio2
 {
-    display: inline-block;
+    display: block;
     width: 30px; 
     height: 30px;
     background: url(checkbox.png) -105px -266px; 
     background-size: 500%;
-   
-}
+    margin: 0px auto;
+
+}*/
+
+
+
+.cuadrito 
+{   display: block;
+    width: 30px; 
+    height: 30px;
+    background: url(checkbox.png) -15px -266px; 
+    background-size: 500%;
+    margin: 0px auto;
+}    
+
+.cuadrito:checked + label
+
+{ display: block;
+    width: 30px; 
+    height: 30px;
+    background: url(checkbox.png) -105px -266px; 
+    background-size: 500%;
+    margin: 0px auto;}
