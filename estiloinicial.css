@@ -10,3 +10,23 @@ body {
     background-size: 100% 100%;
        
 }
+
+.ejercicio
+{
+    display: inline-block;
+    width: 30px; 
+    height: 30px;
+    background: url(checkbox.png) -15px -266px; 
+    background-size: 500%;
+   
+}
+
+.ejercicio2
+{
+    display: block;
+    width: 30px; 
+    height: 30px;
+    background: url(checkbox.png) -105px -266px; 
+    background-size: 500%;
+   
+}
