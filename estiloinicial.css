@@ -1,4 +1,4 @@
-
+/*Index*/
 body {
     margin: 0;
 }
@@ -8,9 +8,8 @@ body {
     height: 100vh;
     background: url(fondo2.jpg);
     background-size: 100% 100%;
-       
 }
-
+/*Nuevo ejercicio*/
 .ejercicio
 {
     display: inline-block;
@@ -23,7 +22,7 @@ body {
 
 .ejercicio2
 {
-    display: block;
+    display: inline-block;
     width: 30px; 
     height: 30px;
     background: url(checkbox.png) -105px -266px; 
