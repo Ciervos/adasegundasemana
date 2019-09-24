@@ -1,8 +1,8 @@
-/*Index*/
+/* For Index.html exercise
 body {
     margin: 0;
 }
-
+*/
 .fondo
 {       
     height: 100vh;
@@ -32,22 +32,33 @@ body {
 
 }*/
 
+#centradito
+{
+    text-align: center;
+}
 
+#box
+{   display: none;
+   
+}
 
-.cuadrito 
-{   display: block;
+.check
+{
+    display: inline-block;
     width: 30px; 
     height: 30px;
-    background: url(checkbox.png) -15px -266px; 
+    background: url(checkbox.png); 
     background-size: 500%;
-    margin: 0px auto;
+    
+}
+
+#box + label.check
+{ 
+    background-position: -15px -266px; 
+ 
 }    
 
-.cuadrito:checked + label
-
-{ display: block;
-    width: 30px; 
-    height: 30px;
-    background: url(checkbox.png) -105px -266px; 
-    background-size: 500%;
-    margin: 0px auto;}
+#box:checked + label.check
+{ 
+  background-position: -105px -266px;  
+ }
